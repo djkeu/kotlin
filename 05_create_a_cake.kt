@@ -14,3 +14,17 @@ fun printCakeTop(age : Int) {
     }
     println()
 }
+
+fun printCakeCandles(age: Int) {
+    print(" ")
+    repeat(age) {
+        print(",")
+    }
+    println()
+
+    print(" ")
+    repeat(age) {
+        print("|")
+    }
+    println()
+}
