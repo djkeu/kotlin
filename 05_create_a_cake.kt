@@ -3,9 +3,9 @@ fun main() {
 	val age = 24
     val layers = 5
     
-    // printCakeCandles(age)
+    printCakeCandles(age)
     printCakeTop(age)
-    // printCakeBottom(age, layers)
+    printCakeBottom(age, layers)
 }
 
 fun printCakeTop(age : Int) {
