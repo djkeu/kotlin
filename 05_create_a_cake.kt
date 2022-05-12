@@ -11,6 +11,6 @@ fun main() {
 fun printCakeTop(age : Int) {
     repeat(age + 2) {
         print("=")
-    println()
     }
+    println()
 }
