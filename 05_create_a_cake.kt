@@ -1,4 +1,10 @@
 // #5 Create a cake with the layers and candles
-main() {
-    // code here
+fun main() {
+	val age = 24
+    val layers = 5
+    
+    // printCakeCandles(age)
+    // printCakeTop(age)
+    // printCakeBottom(age, layers)
 }
+
