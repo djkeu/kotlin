@@ -1,4 +1,4 @@
-/ #4: Print a birthday banner with a border
+// #4: Print a birthday banner with a border
 fun main() {
     val border = "'-._,-'"
     val timesToRepeat = 4
