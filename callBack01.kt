@@ -15,10 +15,11 @@ object CallbackAlarms {
         val formatter = SimpleDateFormat("ss", Locale.getDefault())
         val currentTime = formatter.format(getCurrentTime)
 
+        println(getCurrentTime)
         println(currentTime)
 
         if (currentTime == "00") {
-            playKukuOnce()
+            playKukuOnce() 
         }
     }
 }
