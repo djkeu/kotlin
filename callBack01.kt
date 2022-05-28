@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat
 import java.util.*
 
-object CallbackExample {
+object CallbackAlarms {
 
     fun playKukuOnce() {
         // val resId = resources.getIdentifier("keukuk", "raw", packageName)
@@ -24,5 +24,5 @@ object CallbackExample {
 }
 
 fun main() {
-    CallbackExample.minutelyCall()
+    CallbackAlarms.minutelyCall()
 }
