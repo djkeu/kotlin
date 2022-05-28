@@ -2,8 +2,10 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 fun main() {
-	val currentTime = LocalDateTime.now()
+	val getCurrentTime = LocalDateTime.now()
     val formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SS")
-    val formattedTime = currentTime.format(formatter)
-    println(formattedTime)
+    val currentTime = getCurrentTime.format(formatter)
+    println(currentTime)
+
+    
 }
