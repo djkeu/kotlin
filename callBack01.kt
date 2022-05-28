@@ -10,7 +10,7 @@ object CallbackAlarms {
         println("Kukuk!")
     }
     
-    fun minutelyCall() {
+    fun minutelyAlarm() {
         val getCurrentTime = Calendar.getInstance().time
         val formatter = SimpleDateFormat("ss", Locale.getDefault())
         val currentTime = formatter.format(getCurrentTime)
@@ -24,5 +24,5 @@ object CallbackAlarms {
 }
 
 fun main() {
-    CallbackAlarms.minutelyCall()
+    CallbackAlarms.minutelyAlarm()
 }
